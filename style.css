@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  #posts {
+    width: 400px;
+  }
+  
+  i {
+    cursor: pointer;
+  }
+
+
+  #posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .options {
+    display: flex;
+    gap: 25px;
+  }
+  
+  #msg {
+    color: red;
+  }
+  .textDiv{
+    max-height: 40px;
+    overflow:auto;
+    font-size: 11px;
+  }
+  .blogTitle{
+
+    font-size:14px ;
+    font-weight: 600;
+  }
+  .PostDiv{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .titleDiv{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+  }
